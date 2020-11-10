@@ -8,10 +8,15 @@ import javax.swing.JFrame;
 
 public class Drawing extends Canvas {
 
-    public int c = 30;
-    public int G = 6;
+    public final int c;
 
-    Blackhole m87 = new Blackhole(100,100, 40, 40);
+    public Drawing(){
+        this.c=30;
+    }
+    //public int c = 30;
+    //public int G = 6;
+
+    Blackhole m87 = new Blackhole(100,100, 6);
 
 
     public static void main(String[] args) {
