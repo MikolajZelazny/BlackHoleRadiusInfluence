@@ -4,7 +4,7 @@ import java.awt.Graphics;
 import javax.swing.JFrame;
 
 public class Drawing extends Canvas {
-
+        //CC
     public static void main(String[] args) {
         JFrame frame = new JFrame("My Drawing");
         Canvas canvas = new Drawing();
