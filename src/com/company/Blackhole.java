@@ -2,13 +2,13 @@ package com.company;
 
 import java.awt.*;
 
-public class Blackhole extends Drawing{
-
+public class Blackhole {
+    Drawing drawing;
     public int m;
     public int x;
     public int y;
-    public int c;
-    public final int rs =2*6*m/c*c;
+    //public int c;
+    //public final int rs =2*6*m/ drawing.getC()*drawing.getC(); //ERROR
     public int width;
     public int height;
 
