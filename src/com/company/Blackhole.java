@@ -24,9 +24,9 @@ public class Blackhole {
     }
 
     public void paintBlackhole(Graphics g) {
-        int rs =2*6*m/30*30;
+        int radius =2*6*m/30*30;
         g.setColor(Color.black);
-        g.fillOval(x, y, rs*2, rs*2);
-        System.out.println(rs);
+        g.fillOval(x, y, radius*2, radius*2);
+        System.out.println(radius);
     }
 }
