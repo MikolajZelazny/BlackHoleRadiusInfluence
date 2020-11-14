@@ -7,7 +7,7 @@ import java.awt.Graphics;
 import javax.swing.JFrame;
 
 public class Drawing extends Canvas {
-
+    Blackhole m87 = new Blackhole(100, 100, 6);
     public int c=30;
 
     public int getC() {
@@ -16,7 +16,7 @@ public class Drawing extends Canvas {
     //public int c = 30;
     //public int G = 6;
 
-    Blackhole m87 = new Blackhole(100, 100, 6);
+
 
 
     public static void main(String[] args) {

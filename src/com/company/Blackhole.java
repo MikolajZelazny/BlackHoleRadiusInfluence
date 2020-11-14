@@ -2,12 +2,12 @@ package com.company;
 
 import java.awt.*;
 
-public class Blackhole {
+public class Blackhole{
     Drawing drawing;
     public int m;
     public int x;
     public int y;
-    //public int c;
+    public int c=30; //drawing.getC();
     //public final int rs =2*6*m/ drawing.getC()*drawing.getC(); //ERROR
     public int width;
     public int height;
@@ -24,7 +24,7 @@ public class Blackhole {
     }
 
     public void paintBlackhole(Graphics g) {
-        int radius =2*6*m/30*30;
+        int radius =2*6*m/c*c;
         g.setColor(Color.black);
         g.fillOval(x, y, radius*2, radius*2);
         System.out.println(radius);
